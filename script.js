@@ -44,7 +44,7 @@ const clearAll=()=>{
 }
 
 const Delete=()=>{
-    string = string.slice(0,-1);
+    string = string.toString().slice(0,-1);
     display.value = string;
 }
 const result=()=>{
