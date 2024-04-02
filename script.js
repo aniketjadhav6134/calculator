@@ -28,7 +28,7 @@ const calculate=()=>{
 calculate();
 
 const isOperator=()=>{
-    let op = string.charAt(string.length-1);
+    let op = string.toString().charAt(string.length-1);
     if(op == '.'||op == '+'||op == '-'||op == '*'||op == '/'){
         return true;
     }
